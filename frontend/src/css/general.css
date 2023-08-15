@@ -1,0 +1,109 @@
+@import url(./font.css);
+
+:root {
+  --color-primary: #05c46b;
+  --font-size : 10px;
+  /* --color-secondary: #ecf0f1; */
+  --color-secondary: #F4F7F9;
+  --color-border: #ccc;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size:var(--font-size);
+  direction: ltr;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: iranSans , Bogle, serif;
+  overflow-x: hidden;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #2e2f32;
+}
+
+p , ul {
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+ul {
+  padding: 1.5rem;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.cus_btn {
+  /* padding: 0.7rem; */
+  background: #fff;
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+
+.cus_btn:hover {
+  background: var(--color-primary);
+}
+
+.main_title {
+  font-size: 4.2rem;
+  font-family: BogleBold;
+  padding: 1rem;
+}
+
+.linear_icons {
+  display: flex;
+  margin: 1rem;
+  background: #dfe0e0;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.linear_icons .icon {
+  padding: 1rem 0.5rem ;
+
+}
+
+.linear_icons .text {
+  padding: 1rem 0.5rem ;
+  /* display: flex;
+  align-items: center; */
+}
+.comming_soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9rem;
+}
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: blue;
+}
+
+.w_h_100 {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,4 @@
+.sub_header {
+    border-bottom: 1px double var(--color-primary);
+    border-top: 1px solid #ebebeb;
+}
