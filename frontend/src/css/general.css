@@ -48,6 +48,10 @@ li {
   padding: 0;
 }
 
+.main_color {
+  color: var(--color-primary);
+}
+
 .pointer {
   cursor: pointer;
 }

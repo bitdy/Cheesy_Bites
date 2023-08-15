@@ -1,18 +1,11 @@
-import "./Home.css";
+import Header from "../../components/Header/Header"
 
 const Home = () => {
   return (
     <div>
-      <main className="main_sec">
-        <div className="row">
-          <div className="col-12 col-lg-6">
-          </div>
-          <div className="col-12 col-lg-6">
-          </div>
-        </div>
-      </main>
+      <Header />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
